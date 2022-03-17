@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body {
+    background-color: #4c4c4c;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.element::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.maintitle {
+    font-family: 'Roboto Regular 400', sans-serif;
+    font-size: 58pt;
+    text-align: center;
+    color: white;
+}
+
+.mainp {
+    font-family: 'Roboto Light 300', sans-serif;
+    font-size: 25pt;
+    text-align: center;
+    color: white;
+}
+
+#button {
+    text-align: center;
+}
+
+#invitebutton {
+    text-align: center;
+    font-family: 'Roboto Medium 500', sans-serif;
+    font-size: 20pt;
+    color: black;
+    background-color: #ADD8E6;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 14px 20px;
+    transition-duration: 0.4s;
+}
+
+#invitebutton:hover {
+    font-size: 25pt;
+    border: 2.5px solid black;
+    padding: 16px 22px;
+}
+
+.error {
+    text-align: center;
+    font-size: 58pt;
+    font-family: 'Roboto Regular 400', sans-serif;
+    color: white;
+}
+
+.errorp {
+    text-align: center;
+    font-size: 25pt;
+    font-family: 'Roboto Light 300', sans-serif;
+    color: white;
+}
+
+.command {
+    font-family: 'Roboto Light 300', sans-serif;
+    font-size: 25pt;
+    color: white;
+}
+
+#contacts {
+    text-align: center;
+}
+
+.contact {
+    
+}
+
+.logo {
+    font-family: 'Robot Light 300', sans-serif;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+  
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+  
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+  
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.header a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+  
+.header-right {
+    float: right;
+    font-family: 'Roboto Light 300', sans-serif;
+}
+  
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-right {
+        float: none;
+    }
+    
+    .command {
+        font-size: 17.5pt;
+    }
+
+    .maintitle {
+        font-size: 40pt;
+    }
+
+    .mainp {
+        font-size: 17.5pt;
+    }
+}
