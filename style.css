@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body {
+    background-color: #4c4c4c;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.element::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.maintitle {
+    font-family: 'Roboto Regular 400', sans-serif;
+    font-size: 58pt;
+    text-align: center;
+    color: white;
+}
+
+.mainp {
+    font-family: 'Roboto Light 300', sans-serif;
+    font-size: 25pt;
+    text-align: center;
+    color: white;
+}
+
+#button {
+    text-align: center;
+}
+
+#invitebutton {
+    text-align: center;
+    font-family: 'Roboto Medium 500', sans-serif;
+    font-size: 20pt;
+    color: black;
+    background-color: #ADD8E6;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 14px 20px;
+    transition-duration: 0.4s;
+}
+
+#invitebutton:hover {
+    font-size: 25pt;
+    border: 2.5px solid black;
+    padding: 16px 22px;
+}
