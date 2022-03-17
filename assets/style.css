@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #4c4c4c;
 }
@@ -82,11 +86,11 @@ a, a:hover, a:focus, a:active {
 }
 
 .contact {
-    
+    text-align: center;
 }
 
 .logo {
-    font-family: 'Robot Light 300', sans-serif;
+    font-family: 'Roboto Light 300', sans-serif;
 }
 
 .header {
@@ -148,5 +152,10 @@ a, a:hover, a:focus, a:active {
 
     .mainp {
         font-size: 17.5pt;
+    }
+
+    .contact {
+        width: 50%;
+        height: 50%;
     }
 }
